@@ -1,0 +1,17 @@
+name: agentenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - transformers
+  - torch
+  - langchain
+  - pypdf
+  - sentence-transformers
+  - streamlit
+  - accelerate
+  - pip  # important
+  - pip:
+      - chromadb
+      - python-dotenv
